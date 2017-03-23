@@ -158,4 +158,26 @@ Palabra 2: lapices
 Las dos palabras tienen el mismo largo
 ```
 
+## Ejercicio 17
+Desarrollo una función en lenguaje de programación en C que se encargue de encriptar un mensaje, para ello debe recibir una cadena de texto como parámetro de entrada, a esta cadena se sumará 2 al código ASCII del carácter. Además debe crear otra función que desencripte el mensaje anterior.
+
+## Ejercicio 18
+Una serie de tiempo es una secuencia de valores numéricos obtenidos al medir algún fenómeno cada cierto tiempo. Algunos ejemplos de series de tiempo son: el precio del dólar en cada segundo, el nivel medio mensual de concentración de SO~4~ en el aire y las temperaturas máximas anuales de una ciudad. En un programa, los valores de una serie de tiempo se pueden guardar en un arreglo.
+
+Las medias móviles con retardo $p$ de una serie de tiempo son la secuencia de todos los promedios de $p$ valores consecutivos de la serie.
+
+Por ejemplo, si los valores de la serie son {5,2,2,8,−4,−1,2}{5,2,2,8,−4,−1,2} entonces las medias móviles con retardo 3 son: $$\frac{5+2+2}{3}$$, $$\frac{2+2+8}{3}$$, $$\frac{2+8−4}{3}$$, $$\frac{8−4−1}{3}$$, $$\frac{−4−1+2}{3}$$.
+
+Escriba la función __medias_moviles(serie, p)__ que retorne el arreglo de las medias móviles con retardo $p$ de la serie:
+
+~~~
+float serie[] = {5, 2, 2, 8, -4, -1, 2} ;
+medias = medias_moviles(serie, 3);
+~~~
+
+
+
+## Ejercicio 19
+
+## Ejercicio 20
 
