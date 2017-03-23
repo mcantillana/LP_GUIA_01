@@ -178,6 +178,24 @@ medias = medias_moviles(serie, 3);
 
 
 ## Ejercicio 19
+Escriba un programa en C que permita generar una contraseña de forma aleatoria. Este programa debe recibir como argumento el largo de la contraseña a generar. Utilice los parámetros argc y argv de la función main para desarrollar la solución.
+
+El funcionamiento del programa debe ser el siguiente.
+~~~sh
+./generar_password --largo 10 
+~~~
+
+El programa debe ser capas de recuperar el parámetro largo y mostrar por pantalla la contraseña solicitada, en el largo definido.
+
+Usted debe validar que el parámetro sea un valor numérico, si el parámetro no es ingresado debe asumir largo 12, si el parámetro es incorrecto debe mostrar un error por pantalla. La contraseña solo debe ser generada utilizando letras y números.
 
 ## Ejercicio 20
+A partir del ejercicio anterior, agregar un segundo parámetro que permita entregar la posibilidad de generar la constraseña incluyendo simbolos como e.g. @#$%.
+El programa debe poder ejecutarse de la siguiente forma.
+
+~~~sh
+./generar_password --largo 10 --incluir simbolos
+~~~
+
+Esto debe generar una contraseña con simbolos como los indicados(@#$%.). Ambos parámetros pueden estar o no definidos. En el caso que no esté definido el programa debería generar una contraseña de largo 12 y sin simbolos.
 
