@@ -71,7 +71,7 @@ El número de Euler, e ≈ 2,71828, puede ser representado como la siguiente sum
 Desarrolle un programa que entregue un valor aproximado de e, calculando esta suma hasta que la diferencia entre dos sumandos consecutivos sea menor que 0,0001. 
 Recuerde que el factorial n! es el producto de los números de 1 a n.
 
-## Ejercicio 13
+## Ejercicio 14
 Alzas del dólar
 Un analista financiero lleva un registro del precio del dólar día a día, y desea saber cuál fue la mayor de las alzas en el precio diario a lo largo de ese período.
 
@@ -95,7 +95,7 @@ Dia 10: 494.10
 La mayor alza fue de 3.34 pesos
 ```
 
-## Ejercicio 14
+## Ejercicio 15
 Histograma
 Escriba un programa que pida al usuario que ingrese varios valores enteros, que pueden ser positivos o negativos. Cuando se ingrese un cero, el programa debe terminar y mostrar un gráfico de cuántos valores positivos y negativos fueron ingresados:
 ```
@@ -115,7 +115,7 @@ Positivos: ***
 Negativos: *******
 ```
 
-## Ejercicio 15
+## Ejercicio 16
 Desarrolle un programa que tenga la siguiente entrada:
 
 * primero, el usuario ingresa un número entero n, que indica cuántas palabras ingresará a continuación;
@@ -137,7 +137,7 @@ La palabra mas larga es amarillo
 La palabra mas corta es azul
 ```
 
-## Ejercicio 16
+## Ejercicio 17
 Escriba un programa que pida al usuario dos palabras, y que indique cuál de ellas es la más larga y por cuántas letras lo es.
 ```
 Palabra 1: edificio
@@ -158,10 +158,10 @@ Palabra 2: lapices
 Las dos palabras tienen el mismo largo
 ```
 
-## Ejercicio 17
+## Ejercicio 18
 Desarrollo una función en lenguaje de programación en C que se encargue de encriptar un mensaje, para ello debe recibir una cadena de texto como parámetro de entrada, a esta cadena se sumará 2 al código ASCII del carácter. Además debe crear otra función que desencripte el mensaje anterior.
 
-## Ejercicio 18
+## Ejercicio 19
 Una serie de tiempo es una secuencia de valores numéricos obtenidos al medir algún fenómeno cada cierto tiempo. Algunos ejemplos de series de tiempo son: el precio del dólar en cada segundo, el nivel medio mensual de concentración de SO-2 en el aire y las temperaturas máximas anuales de una ciudad. En un programa, los valores de una serie de tiempo se pueden guardar en un arreglo.
 
 Las medias móviles con retardo *p* de una serie de tiempo son la secuencia de todos los promedios de *p* valores consecutivos de la serie.
@@ -176,8 +176,7 @@ medias = medias_moviles(serie, 3);
 ~~~
 
 
-
-## Ejercicio 19
+## Ejercicio 20
 Escriba un programa en C que permita generar una contraseña de forma aleatoria. Este programa debe recibir como argumento el largo de la contraseña a generar. Utilice los parámetros argc y argv de la función main para desarrollar la solución.
 
 El funcionamiento del programa debe ser el siguiente.
@@ -189,7 +188,7 @@ El programa debe ser capas de recuperar el parámetro largo y mostrar por pantal
 
 Usted debe validar que el parámetro sea un valor numérico, si el parámetro no es ingresado debe asumir largo 12, si el parámetro es incorrecto debe mostrar un error por pantalla. La contraseña solo debe ser generada utilizando letras y números.
 
-## Ejercicio 20
+## Ejercicio 21
 A partir del ejercicio anterior, agregar un segundo parámetro que permita entregar la posibilidad de generar la constraseña incluyendo simbolos como e.g. @#$%.
 El programa debe poder ejecutarse de la siguiente forma.
 
