@@ -1,4 +1,4 @@
-# Guía 01
+# Guía 01 / Ejercicios
 Guía 1 de programación imperativa en lenguaje de programación C
 
 ## Ejercicio 1
@@ -198,3 +198,37 @@ El programa debe poder ejecutarse de la siguiente forma.
 
 Esto debe generar una contraseña con simbolos como los indicados(@#$%.). Ambos parámetros pueden estar o no definidos. En el caso que no esté definido el programa debería generar una contraseña de largo 12 y sin simbolos.
 
+
+## Ejercicio 22
+
+Dado un vector de 10 elementos ={1, 2, 3, 4, 4, 7, 8, 9, 5, 4}, escribir un programa en C  (haciendo uso de puntero) que muestre las direcciones de memoria de cada elemento del vector.
+
+## Ejercicio 23
+
+Desarrolle una función utilizando punteros que reciba un arreglo de enteros y devuelva un arreglo con los valores pares del arreglo.
+
+## Ejercicio 24
+
+Reescribe el siguiente programa para calcular la media aritmética de un vector de N valores reales mediante notación y aritmética de punteros:
+
+~~~
+float media (float datos[], int N) {
+    int i;
+    float suma = 0;
+    for (i=0; i<N; i++)
+    suma = suma + datos[i];
+    return suma/N;
+ }  
+~~~
+
+## Ejercicio 25
+
+Utilizando asignación dinámica de memoria, escriba un programa que permita determinar el número mayor perteneciente a un conjunto de n números, donde tanto el valor de n como el de los números deben ser ingresados por el usuario.
+~~~ 
+Ingrese n: 4
+Ingrese número: 23
+Ingrese número: -34
+Ingrese número: 0
+Ingrese número: 1
+El mayor es 23
+~~~
