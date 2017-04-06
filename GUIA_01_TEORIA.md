@@ -56,14 +56,14 @@ Dado el siguiente código
 int main(int) {
     int a, b, c, *p1, *p2;
 
-    p1 = &a; // Paso 1. La dirección de a es asignada a p1
-    *p1 = 1; // Paso 2. p1 (a) es igual a 1. Equivale a a = 1;
-    p2 = &b; // Paso 3. La dirección de b es asignada a p2
-    *p2 = 2; // Paso 4. p2 (b) es igual a 2. Equivale a b = 2;
-    p1 = p2; // Paso 5. El valor del p1 = p2
-    *p1 = 0; // Paso 6. b = 0
-    p2 = &c; // Paso 7. La dirección de c es asignada a p2
-    *p2 = 3; // Paso 8. c = 3
+    p1 = &a; 
+    *p1 = 1; 
+    p2 = &b; 
+    *p2 = 2; 
+    p1 = p2; 
+    *p1 = 0; 
+    p2 = &c; 
+    *p2 = 3; 
 
     printf("%d %d %d\n", a, b, c); // Paso 9. ¿Qué se imprime?
     
@@ -152,12 +152,12 @@ Si ***ptrLetra*** es un puntero a un char, ¿qué hace la instrucción \*ptrLetr
 ¿Qué valor tendrá la variable a tras la ejecución de este programa?
 ~~~
 int main () {
-    int a = 5; // a vale 5
+    int a = 5; 
     int *p; int **q;
-    p = &a; // p apunta a la variable a
-    q = &p; // q apunta a p
+    p = &a; 
+    q = &p; 
     a = *p*2+**q;
-     // a = 5*2+5=15
+     
 }
 ~~~
 
@@ -177,10 +177,10 @@ Si quiero incrementar en una unidad el contenido de la variable a la que apunta 
 Indica los valores que tendrán al final de la ejecución del siguiente código las variables letra1, letra2 y letra3 en cada caso.
 ~~~
  char* cadena = "Hola";
- char letra0 = *cadena; // Asignando „H‟ a letra0
- char letra1 = *(cadena+1); // Asignando „o‟ a letra1
- char letra2 = *(cadena+2); // Asignando „l‟ a letra2
- char letra3 = *(cadena+3); // Asignando „a‟ a letra3
+ char letra0 = *cadena; 
+ char letra1 = *(cadena+1); 
+ char letra2 = *(cadena+2); 
+ char letra3 = *(cadena+3); 
 ~~~
 
 ## Ejercicio 28
@@ -207,15 +207,12 @@ Dado el siguiente código
 ~~~
 char letra1 = 'A';
 char letra2 = 'B';
-char* puntero1 = &letra1; //el puntero1 apunta a letra1
-char* puntero2 = &letra2; //el puntero2 apunta a letra2
-puntero1 = puntero2; /* puntero1 apunta ahora a la misma
-variable a la que apunta puntero2, es decir, apunta a letra2 */
+char* puntero1 = &letra1; 
+char* puntero2 = &letra2; 
+puntero1 = puntero2; 
 letra1 = 'C';
 letra2 = 'D';
-letra1 = *puntero1; /* puntero1 apunta a letra2; letra2 lo
-hemos cambiado en la instrucción anterior al valor „D‟; por lo
-tanto le estoy asignado dicho valor a letra1. */
+letra1 = *puntero1;
 ~~~
 
 ¿Cuáles son los contenidos de letra1 y letra2 al final del código? 
