@@ -145,7 +145,7 @@ f = *ptf +  20;
 
 ## Ejercicio 23
 
-Si ***ptrLetra*** es un puntero a un char, ¿qué hace la instrucción ***\*ptrLetra++=3;***? ¿y la instrucción ***(\*ptrLetra)++=3;***? ¿son iguales? ¿o no son factibles de realizar?. Fundamente su respuesta.
+Si ***ptrLetra*** es un puntero a un char, ¿qué hace la instrucción \*ptrLetra++=3;? ¿y la instrucción (\*ptrLetra)++=3;? ¿son iguales? ¿o no son factibles de realizar?. Fundamente su respuesta.
 
 ## Ejercicio 24
 
