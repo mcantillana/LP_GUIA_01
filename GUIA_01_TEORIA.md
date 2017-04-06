@@ -75,7 +75,7 @@ int main(int) {
 Cuál es el valor de de a,b y C al finalizar la ejecución del programa?
 
 ## Ejericio 15
-Es valida ésta expresión __&(k+99)___ al trabajar con punteros?
+Es valida ésta expresión __&(k+99)__ al trabajar con punteros?
 
 ## Ejericio 16
 ¿Que resultado tiene la variable a, en la siguiente operación?
@@ -99,11 +99,6 @@ Es válida la siguiente instrucción? si es válida cual es el valor de ***y***
 ~~~
 y=(int *)malloc(10*sizeof(double));
 ~~~
-
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ## Ejercicio 20
 
