@@ -11,10 +11,10 @@ programación.
 Los paradignmas de programación se dividen en dos grandes grupos, indiquelos y que paradigmas están representados por cada grupo.
 
 R: 
-* Programación declarativa 
+* Programación imperativa
 ** Estructurada
 ** Orientada a objetos
-* Programación imperativa
+* Programación declarativa 
 ** Funcional
 ** Lógica
 
