@@ -1,13 +1,13 @@
 # Guía 01 / Teoría
 
-## Ejericio 1
+## Ejercicio 1
 ¿Qué es un paradigma de programación?
 
 R: Un paradigma define un conjunto de reglas, patrones y estilos de
 programación que son usados por un grupo de lenguajes de
 programación.
 
-## Ejericio 2
+## Ejercicio 2
 Los paradignmas de programación se dividen en dos grandes grupos, indiquelos y que paradigmas están representados por cada grupo.
 
 R: 
@@ -18,7 +18,7 @@ R:
 ** Funcional
 ** Lógica
 
-## Ejericio 3
+## Ejercicio 3
 Indique tres diferencias entre un paradigma funcional y un paradigma imperativo
 
 * El paradigma funcional intenta implementar un pensamiento matematico para la resolución de problemas, a su vez el paradigma imperativo puedo decir que la máquina computa y tiene un algoritmo que le dice como hacerlo (máquina de Turing).
@@ -27,38 +27,38 @@ Indique tres diferencias entre un paradigma funcional y un paradigma imperativo
 
 Leer: https://medium.com/@dftoro/imperativo-vs-funcional-e266af21f590
 
-## Ejericio 4
+## Ejercicio 4
 El polimorfismo a que se refiere y en que paradigma se ve su implementación?
 
 R: polimorfismo (P.O.O) POLIMORFISMO: Concepto:En programación orientada a objetos se denomina polimorfismo a la capacidad que tienen los objetos de una clase de responder al mismo mensaje o evento en función de los parámetros utilizados durante su invocación.
 
 
-## Ejericio 5
+## Ejercicio 5
 Compiladores e intérpretes, indique tres diferencias asociadas a estas estrategias para conseguir que un programa se ejecute en un ordenador
 
-## Ejericio 6
+## Ejercicio 6
 El lenguaje C en un lenguaje con un paradigma orientado a objetos? justifique su respuesta.
 
-## Ejericio 7
+## Ejercicio 7
 Indique tres ejemplos de software construido bajo el lenguaje de programación C
 
-## Ejericio 8
+## Ejercicio 8
 Indique las cuatro etapas que se deben realizar para ejecutar un programa en el lenguaje C
 
-## Ejericio 9
+## Ejercicio 9
 Indique la diferencia de las siguientes operaciones
 * i++
 * ++i
 
-## Ejericio 10
+## Ejercicio 10
 ¿Que operación es más eficiente?
 * a++
 * a+=1
 
-## Ejericio 11
+## Ejercicio 11
 Este es el prototipo de la función main en lenguahe C, int main(int argc, char *argv[]). Que representa argc y argv ?
 
-## Ejericio 12
+## Ejercicio 12
 Dado la siguiente definición:
 ~~~
 int *punt = NULL, var = 14;
@@ -67,10 +67,10 @@ punt = &var;
 
 ¿Cual es la diferencia entre \*(punt + 1) y punt + 1 ?
 
-## Ejericio 13
+## Ejercicio 13
 Al trabajar con punteros se emplean dos operadores específicos, indique y defina cada operador.
 
-## Ejericio 14
+## Ejercicio 14
 Dado el siguiente código
 
 ~~~
@@ -95,20 +95,20 @@ int main(int) {
 
 Cuál es el valor de de a,b y C al finalizar la ejecución del programa?
 
-## Ejericio 15
+## Ejercicio 15
 Es valida ésta expresión __&(k+99)__ al trabajar con punteros?
 
-## Ejericio 16
+## Ejercicio 16
 ¿Que resultado tiene la variable a, en la siguiente operación?
 ~~~
 a = sizeof(long int * int)
 ~~~
 
-## Ejericio 17
+## Ejercicio 17
 Explique el funcionamiento de la función mallo en lenguaje C
 
 
-## Ejericio 18
+## Ejercicio 18
 ¿Cual es el valor de ***x*** al ejecutar la siguiente instrucción?
 ~~~
 x = (int *)malloc(10*sizeof(int));
