@@ -3,14 +3,35 @@
 ## Ejericio 1
 ¿Qué es un paradigma de programación?
 
+R: Un paradigma define un conjunto de reglas, patrones y estilos de
+programación que son usados por un grupo de lenguajes de
+programación.
+
 ## Ejericio 2
 Los paradignmas de programación se dividen en dos grandes grupos, indiquelos y que paradigmas están representados por cada grupo.
+
+R: 
+* Programación declarativa 
+** Estructurada
+** Orientada a objetos
+* Programación imperativa
+** Funcional
+** Lógica
 
 ## Ejericio 3
 Indique tres diferencias entre un paradigma funcional y un paradigma imperativo
 
+* El paradigma funcional intenta implementar un pensamiento matematico para la resolución de problemas, a su vez el paradigma imperativo puedo decir que la máquina computa y tiene un algoritmo que le dice como hacerlo (máquina de Turing).
+* El paradigma funcional describo lo que requiero como solución y no necesariamente el proceso de la obtención de ésto. que el antonimo de los paradigmas imperativos
+* En programación funcional no hay variables (o las variables son inmutables) a su vez En el paradigma imperativo se describe como debe resolverse el problema usando un algoritmo con una secuencia de instrucciones.
+
+Leer: https://medium.com/@dftoro/imperativo-vs-funcional-e266af21f590
+
 ## Ejericio 4
 El polimorfismo a que se refiere y en que paradigma se ve su implementación?
+
+R: polimorfismo (P.O.O) POLIMORFISMO: Concepto:En programación orientada a objetos se denomina polimorfismo a la capacidad que tienen los objetos de una clase de responder al mismo mensaje o evento en función de los parámetros utilizados durante su invocación.
+
 
 ## Ejericio 5
 Compiladores e intérpretes, indique tres diferencias asociadas a estas estrategias para conseguir que un programa se ejecute en un ordenador
@@ -56,14 +77,14 @@ Dado el siguiente código
 int main(int) {
     int a, b, c, *p1, *p2;
 
-    p1 = &a; 
-    *p1 = 1; 
-    p2 = &b; 
-    *p2 = 2; 
-    p1 = p2; 
-    *p1 = 0; 
-    p2 = &c; 
-    *p2 = 3; 
+    p1 = &a; // Paso 1. La dirección de a es asignada a p1
+    *p1 = 1; // Paso 2. p1 (a) es igual a 1. Equivale a a = 1;
+    p2 = &b; // Paso 3. La dirección de b es asignada a p2
+    *p2 = 2; // Paso 4. p2 (b) es igual a 2. Equivale a b = 2;
+    p1 = p2; // Paso 5. El valor del p1 = p2
+    *p1 = 0; // Paso 6. b = 0
+    p2 = &c; // Paso 7. La dirección de c es asignada a p2
+    *p2 = 3; // Paso 8. c = 3
 
     printf("%d %d %d\n", a, b, c); // Paso 9. ¿Qué se imprime?
     
@@ -152,12 +173,12 @@ Si ***ptrLetra*** es un puntero a un char, ¿qué hace la instrucción \*ptrLetr
 ¿Qué valor tendrá la variable a tras la ejecución de este programa?
 ~~~
 int main () {
-    int a = 5; 
+    int a = 5; // a vale 5
     int *p; int **q;
-    p = &a; 
-    q = &p; 
+    p = &a; // p apunta a la variable a
+    q = &p; // q apunta a p
     a = *p*2+**q;
-     
+     // a = 5*2+5=15
 }
 ~~~
 
@@ -176,11 +197,11 @@ Si quiero incrementar en una unidad el contenido de la variable a la que apunta 
 ## Ejercicio 27
 Indica los valores que tendrán al final de la ejecución del siguiente código las variables letra1, letra2 y letra3 en cada caso.
 ~~~
- char* cadena = "Hola";
- char letra0 = *cadena; 
- char letra1 = *(cadena+1); 
- char letra2 = *(cadena+2); 
- char letra3 = *(cadena+3); 
+char* cadena = "Hola";
+char letra0 = *cadena; // Asignando „H‟ a letra0
+char letra1 = *(cadena+1); // Asignando „o‟ a letra1
+char letra2 = *(cadena+2); // Asignando „l‟ a letra2
+char letra3 = *(cadena+3); // Asignando „a‟ a letra3
 ~~~
 
 ## Ejercicio 28
