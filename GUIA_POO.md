@@ -38,12 +38,12 @@ Haz una clase llamada Persona que siga las siguientes condiciones:
 * Un constructor  que permita crear una objeto sin inicializar ningún atributo o con el nombre, edad y sexo, el resto por defecto o con todos los atributos como parámetro.
 
 * Los métodos que se implementaran son:
-1. __calcular_imc()__: calculara si la persona esta en su peso ideal (peso en kg/(altura^2  en m)), si esta fórmula devuelve un valor menor que 20, la función devuelve un -1, si devuelve un número entre 20 y 25 (incluidos), significa que esta por debajo de su peso ideal la función devuelve un 0  y si devuelve un valor mayor que 25 significa que tiene sobrepeso, la función devuelve un 1. Te recomiendo que uses un diccionario para devolver estos valores.
-2. __es_mayor_de_edad()__: indica si es mayor de edad, devuelve un True o False según corresponda.
-3. __comprobar_genero(genero)__: comprueba que el genero introducido es correcto. Si no es correcto.
-4. __to_string()__: devuelve toda la información del objeto.
-5. __genera_dni()__: genera un número aleatorio de 8 cifras. Este método sera invocado cuando se construya el objeto. No debe ser visible al exterior.
-6. Métodos set de cada parámetro, excepto de DNI.
+    * __calcular_imc()__: calculara si la persona esta en su peso ideal (peso en kg/(altura^2  en m)), si esta fórmula devuelve un valor menor que 20, la función devuelve un -1, si devuelve un número entre 20 y 25 (incluidos), significa que esta por debajo de su peso ideal la función devuelve un 0  y si devuelve un valor mayor que 25 significa que tiene sobrepeso, la función devuelve un 1. Te recomiendo que uses un diccionario para devolver estos valores.
+    * __es_mayor_de_edad()__: indica si es mayor de edad, devuelve un True o False según corresponda.
+    * __comprobar_genero(genero)__: comprueba que el genero introducido es correcto. Si no es correcto.
+    * __to_string()__: devuelve toda la información del objeto.
+    * __genera_dni()__: genera un número aleatorio de 8 cifras. Este método sera invocado cuando se construya el objeto. No debe ser visible al exterior.
+    * Métodos set de cada parámetro, excepto de DNI.
 
 Ahora, debe crear el programa que pruebe la clase y debe realizar lo siguiente:
 
@@ -60,9 +60,9 @@ Haz una clase llamada Password que siga las siguientes condiciones:
 * El constructor debe permitir crear un password sin inicializar ningún atributo o con la longitud que nosotros le indiquemos. Adenpas debe generar una contraseña aleatoria con esa longitud.
 
 * Los métodos que implementa serán:
-1. __es_fuerte()__: devuelve un booleano si es fuerte o no, para que sea fuerte debe tener mas de 2 mayúsculas, mas de 1 minúscula y mas de 5 números.
-2. __generar_password()__:  genera la contraseña del objeto con la longitud que tenga.
-3. Método get para contraseña y longitud.
-4. Método set para longitud.
+    * __es_fuerte()__: devuelve un booleano si es fuerte o no, para que sea fuerte debe tener mas de 2 mayúsculas, mas de 1 minúscula y mas de 5 números.
+    * __generar_password()__:  genera la contraseña del objeto con la longitud que tenga.
+    * Método get para contraseña y longitud.
+    * Método set para longitud.
 
 Ahora, debe crear el programa que pruebe la clase.
