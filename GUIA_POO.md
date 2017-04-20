@@ -60,9 +60,9 @@ Haz una clase llamada Password que siga las siguientes condiciones:
 * El constructor debe permitir crear un password sin inicializar ningún atributo o con la longitud que nosotros le indiquemos. Adenpas debe generar una contraseña aleatoria con esa longitud.
 
 * Los métodos que implementa serán:
-1. __es_fuerte()__: devuelve un booleano si es fuerte o no, para que sea fuerte debe tener mas de 2 mayúsculas, mas de 1 minúscula y mas de 5 números.
-2. __generar_password()__:  genera la contraseña del objeto con la longitud que tenga.
-3. Método get para contraseña y longitud.
-4. Método set para longitud.
+    1. __es_fuerte()__: devuelve un booleano si es fuerte o no, para que sea fuerte debe tener mas de 2 mayúsculas, mas de 1 minúscula y mas de 5 números.
+    2. __generar_password()__:  genera la contraseña del objeto con la longitud que tenga.
+    3. Método get para contraseña y longitud.
+    4. Método set para longitud.
 
 Ahora, debe crear el programa que pruebe la clase.
