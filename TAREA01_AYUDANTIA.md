@@ -1,6 +1,6 @@
 # TAREA 01 / ORIENTACION A OBJETOS
 
-Nos solicitan modelar diferentes electrodomesticos bajo un conjunto de reglas que se describen a continuación. Se debe crear una clase padre llamada Electrodomestico con las siguientes características:
+Se pide modelar diferentes electrodomesticos bajo el paradigma de programación orientado a objetos, para ello se debe crear una clase padre llamada Electrodomestico con las siguientes características:
 * Sus atributos son precio base, color, consumo energético (letras entre A y F) y peso.
 * Por defecto, el color será blanco, el consumo energético sera F, el precio_base es de 100 CLP y el peso de 5 kg. 
 * Los colores disponibles son blanco, negro, rojo, azul y gris. 
