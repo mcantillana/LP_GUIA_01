@@ -33,7 +33,7 @@ Además debe implementar dos métodos especiales:
 
 Haz una clase llamada Persona que siga las siguientes condiciones:
 
-* Sus atributos son: nombre, edad, DNI, genero (H hombre, M mujer), peso y altura. No queremos que se accedan directamente a ellos. Piensa que modificador de acceso es el apropiado.
+* Sus atributos son: nombre, edad, DNI, genero (H hombre, M mujer), peso y altura. No queremos que se accedan directamente a ellos por lo que debe controlar la visibilidad de estos atributos.
 * Por defecto, todos los atributos menos el DNI serán valores por defecto según su tipo (0 números, cadena vacía para String, etc.). Genero sera hombre por defecto.
 * Un constructor  que permita crear una objeto sin inicializar ningún atributo o con el nombre, edad y sexo, el resto por defecto o con todos los atributos como parámetro.
 
@@ -66,3 +66,11 @@ Haz una clase llamada Password que siga las siguientes condiciones:
     * Método set para longitud.
 
 Ahora, debe crear el programa que pruebe la clase.
+
+<!-- ## Ejercicio 7 -->
+
+<!-- __Juego de Rol__ -->
+<!-- Escribir una clase Personaje que contenga los atributos vida, posicion y velocidad, y los métodos recibir_ataque, que reduzca la vida según una cantidad recibida y lance una excepción si la vida pasa a ser menor o igual que cero, y mover que reciba una dirección y se mueva en esa dirección la cantidad indicada por velocidad. -->
+<!-- Escribir una clase Soldado que herede de Personaje, y agregue el atributo ataque y el método atacar, que reciba otro personaje, al que le debe hacer el daño indicado por el atributo ataque. -->
+<!-- Escribir una clase Campesino que herede de Personaje, y agregue el atributo cosecha y el método cosechar, que devuelva la cantidad cosechada. -->
+__ __
