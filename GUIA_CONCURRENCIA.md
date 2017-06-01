@@ -9,9 +9,8 @@ Luego haga que cada uno espere un tiempo proporcional a su identificador antes d
 Implemente un programa que lance cuatro threads, cada uno incrementará una variable contador de tipo entero, compartida por todos, 5000 veces y luego saldrá. No se preocupe de sincronizar los accesos a dicha variable. ¿Obtiene el resultado correcto? Ahora sincronice el acceso a dicha variable utilizando Lock. 
 
 ### Ejercicio 3
-Implemente un programa que reciba a través de sus argumentos una lista de ficheros y cuente cuantas líneas, palabras y caracteres hay en cada fichero, así como el total entre todos los ficheros (el ‘wc’ de linux). 
-Modifíquelo para que se cree un thread por cada fichero a contar, cuidando de obtener igualmente el total. Mida cuanto tiempo emplea la versión secuencial para contar unos cuantos ficheros grandes y cuanto tarda la versión
-paralela para hacer lo mismo.
+Desarrolle un programa que lea una lista de ficheros y cuente cuantas líneas, palabras y caracteres hay en cada fichero, asi como el total entre todos los ficheros (Similar al "wc" de linux). 
+Modifíquelo para que se cree un thread por cada fichero a contar, cuidando de obtener igualmente el total. Mida cuanto tiempo emplea la versión secuencial para contar unos cuantos ficheros y cuanto tarda la versión utilizando thread para hacer lo mismo.
 
 ## Multiprocessing
 
