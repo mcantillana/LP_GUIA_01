@@ -12,6 +12,8 @@ Implemente un programa que lance cuatro threads, cada uno incrementará una vari
 Desarrolle un programa que lea una lista de ficheros y cuente cuantas líneas, palabras y caracteres hay en cada fichero, asi como el total entre todos los ficheros (Similar al "wc" de linux). 
 Modifíquelo para que se cree un thread por cada fichero a contar, cuidando de obtener igualmente el total. Mida cuanto tiempo emplea la versión secuencial para contar unos cuantos ficheros y cuanto tarda la versión utilizando thread para hacer lo mismo.
 
+Hint: Utilice Queue para compartir información
+
 ## Multiprocessing
 
 ### Ejercicio 1
