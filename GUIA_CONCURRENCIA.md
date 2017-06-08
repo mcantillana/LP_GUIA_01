@@ -14,7 +14,7 @@ Modifíquelo para que se cree un thread por cada fichero a contar, cuidando de o
 
 Hint: Utilice Queue para compartir información
 
-## Multiprocessing
+## multiprocessing
 
 ### Ejercicio 1
 Realice el ejercicio 1 del apartado Threading, utilizando multiprocessing. Nota alguna diferencia?
