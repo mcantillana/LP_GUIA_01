@@ -18,7 +18,11 @@ La clase debe guardar el título del libro, autor, número de ejemplares del lib
 * Método devolución que decremente el atributo correspondiente cuando se produzca la devolución de un libro. No se podrán devolver libros que no se hayan prestado. Devuelve true si se ha podido realizar la operación y false en caso contrario.
 
 ## Ejercicio 3
-Un colegio necesita un programa informático para poder gestionar las notas de sus alumnos. Se sabe que para un curso existen diversas materias, cada materia la imparte un profesor, un alumno está matriculado en un curso, cada alumno recibe una calificación en base a sus resultados en cada materia. ¿Cómo plantearías este programa en base al concepto de Clase y Objeto?
+Papel, Boligrafo, Marcador
+
+* Escribir una clase Papel que contenga un texto, un método escribir, que reciba una cadena para agregar al texto (concatenar), y el método __str__ que imprima el contenido del texto.
+* Escribir una clase Boligrafo que contenga una cantidad de tinta, y un método escribir, que reciba un texto y un papel sobre el cual escribir. Cada letra escrita debe reducir la cantidad de tinta contenida. Cuando la tinta se acabe, debe lanzar una excepción.
+* Escribir una clase Marcador que herede de Boligrafo, y agregue el método recargar, que reciba la cantidad de tinta a agregar.
 
 ## Ejercicio 4
 Crea una clase llamada Cuenta que tendrá los siguientes atributos: titular y cantidad (puede tener decimales).
@@ -66,6 +70,20 @@ Haz una clase llamada Password que siga las siguientes condiciones:
     * Método set para longitud.
 
 Ahora, debe crear el programa que pruebe la clase.
+
+## Ejercicio 7
+Diseñar un programa que permita modelar acciones y atributos de los animales. El programa de permitir realizar las acciones de caminar, comer y enfermarse, además debe tener como atributos el nombre y edad del animal.
+
+A partir de la definición anterior modele la clase perro que extienda del objeto animal y que además de las acciones primarias, pueda ladrar y correr. 
+
+Instancie un objeto de tipo perro, y considere las siguientes operaciones:
+* El objeto perro debe comenzar con 1000 unidades de energía.
+* Cada vez que se alimenta al perro este se debe acumular 300 unidades de energía
+* Cada vez que el perro camine se debe restar 200 unidades de energía
+* Cada vez que el perro se enferme debe restar unidades de energía de forma aleatoria
+* Cada vez que el perro ladre se debe restar 100 unidades de energía
+
+Construya una función *main* que permita probar el programa
 
 <!-- ## Ejercicio 7 -->
 
